@@ -53,7 +53,7 @@ class _MyHomePageState extends State<MyHomePage> {
             ),
             const Divider(),
             ConsumedWaterHistory(
-              waterIntakeHistory: consumedTimeList,
+              waterIntakeHistory: consumedTimeList.reversed.toList(),
             ),
           ],
         ),
